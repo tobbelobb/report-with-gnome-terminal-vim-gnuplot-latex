@@ -6,7 +6,6 @@ Personal setup/conf used when I need to write reports with my Ubuntu boxes. Noth
  - make for all compilation
  - gnuplot for all plotting
  - version control with git
- - cozy background picture in terminal (ok, not time saving but soul saving)
 
 In .bashrc:
 
@@ -32,3 +31,5 @@ set clipboard=unnamedplus
 " Save gnome-terminals titles...
 set notitle
 ```
+Also, not time saving, but soul saving: A background picture in the terminal.
+The one I use is a darker version of [this](http://www.nasa.gov/sites/default/files/images/712130main_8246931247_e60f3c09fb_o.jpg) modified so that most text is in the Pacific.
