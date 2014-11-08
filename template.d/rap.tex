@@ -1,0 +1,78 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8x,utf8]{inputenc}
+\usepackage[toc,page]{appendix}
+%\usepackage[swedish]{babel}
+\usepackage{microtype}
+\usepackage{amsmath}
+\usepackage{ae}
+\usepackage{units}
+\usepackage{url}
+\usepackage{icomma}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{gauss}
+\usepackage{bbm}
+\usepackage{float}
+\usepackage{csquotes}
+\newcommand{\N}{\ensuremath{\mathbbm{N}}}
+\newcommand{\Z}{\ensuremath{\mathbbm{Z}}}
+\newcommand{\Q}{\ensuremath{\mathbbm{Q}}}
+\newcommand{\R}{\ensuremath{\mathbbm{R}}}
+\newcommand{\C}{\ensuremath{\mathbbm{C}}}
+\newcommand{\rd}{\ensuremath{\mathrm{d}}}
+\newcommand{\id}{\ensuremath{\,\rd}}
+\newcommand{\ordo}[1]{{\cal O}\left( #1 \right)}
+\usepackage{amssymb}
+\usepackage{pdfpages}
+\usepackage{graphicx}
+\usepackage{epstopdf}
+
+\begin{document}
+
+\title{Some University Course, Lab 1}
+\author{Firstname Surname}
+\includepdf[pages={1}]{frontpage.pdf}
+
+\newpage
+\tableofcontents
+\newpage
+
+\section{Example Section}
+
+\begin{figure}
+  \begin{small}
+  \centering
+  \input{examplefig.tex}
+  \caption{
+    Caption for examplefig.
+  }
+  \label{fig:examplefig}
+  \end{small}
+\end{figure}
+
+
+\end{document}
+
+%% copy-paste templates. Should probably get keyboard shortcuts instead
+
+%\begin{figure}
+%  \begin{small}
+%  \centering
+%  \input{task<nr>.tex}
+%  \caption{
+%  }
+%  \label{fig:task<nr>}
+%  \end{small}
+%\end{figure}
+
+%\begin{table}
+%  \begin{center}
+%    \caption{<caption of a table>}
+%    \label{table:task<nr>}
+%    \begin{tabular}{ c | c }
+%      Option      & value      \\
+%      \hline
+%      <option1>   & $10^{-6}$  \\
+%    \end{tabular}
+%  \end{center}
+%\end{table}
