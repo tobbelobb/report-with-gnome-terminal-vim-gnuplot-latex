@@ -2,7 +2,7 @@ report-with-gnome-terminal-vim-gnuplot-latex
 ============================================
 
 Personal setup/conf used when I need to write reports with my Ubuntu boxes. Nothing very special, but saves me a lot of time by using: 
- - gnome-terminal tabs for sepparating between types of tasks
+ - gnome-terminal tabs for separating between types of tasks
  - make for all compilation
  - gnuplot for all plotting
  - version control with git
@@ -17,7 +17,7 @@ alias raptabs='gnome-terminal --tab --title "1 Vim Source" --tab --title "2 Gene
 ```
 
 In .vimrc:
-```
+```vim
 " Make Vim get Alt- keybindings even when invoked in terminal
 let c='a'
 while c <= 'z'
